@@ -1,1 +1,7 @@
+# Composer stuff
 vendor/
+
+# Testing Stuff 
+# ===========================
+## PHP Unit
+.phpunit.result.cache
