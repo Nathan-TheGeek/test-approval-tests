@@ -10,5 +10,8 @@
 1. ```git clone https://github.com/Nathan-TheGeek/test-approval-tests```
 2. ```composer install```
 
-## Running the simple tests
-- ```./vendor/bin/phpunit tests/SimpleTest.php``` will run some simple PHP Unit tests to ensure that php and PHP Unit is installed and working correctly. 
+## Running the Tests
+- ### Simple Tests 
+   - ```./vendor/bin/phpunit tests/SimpleTest.php``` will run some simple PHP Unit tests to ensure that php and PHP Unit is installed and working correctly. 
+- ### Http Test against code on server.
+   - ```./vendor/bin/phpunit tests/HttpTestAgainstServer.php``` will use an http client to call out to an external webserver and test the response returned.
