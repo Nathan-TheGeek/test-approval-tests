@@ -17,5 +17,11 @@
         "phpunit/phpunit": "10.0.x-dev",
         "approvals/approval-tests": "dev-Main",
         "symfony/http-client": "6.2.x-dev"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit",
+        "test-simple": "./vendor/bin/phpunit --testsuite Simple",
+        "test-http": "./vendor/bin/phpunit --testsuite Http",
+        "test-diff": "./vendor/bin/phpunit --testsuite Diff"
     }
 }

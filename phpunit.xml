@@ -1,7 +1,13 @@
 <phpunit bootstrap="tests/bootstrap.php">
     <testsuites>
-        <testsuite name="All">
-            <directory>./tests/</directory>
+        <testsuite name="Simple">
+            <file>./tests/SimpleTest.php</file>
+        </testsuite>
+        <testsuite name="Http">
+            <file>./tests/HttpTestAgainstServerTest.php</file>
+        </testsuite>
+        <testsuite name="Diff">
+            <file>./tests/DiffTest.php</file>
         </testsuite>
     </testsuites>
 </phpunit>
