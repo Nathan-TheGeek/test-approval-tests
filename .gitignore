@@ -5,3 +5,5 @@ vendor/
 # ===========================
 ## PHP Unit
 .phpunit.result.cache
+## Approval tests temporary diff files.
+tests/**/approvals/*.received.*

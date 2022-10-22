@@ -5,7 +5,7 @@ namespace Nathan\TestApprovalTests\tests;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpClient\HttpClient;
 
-class HttpTestAgainstServer extends TestCase {
+class HttpTestAgainstServerTest extends TestCase {
 
     public function testGoogleUsesGoogleSomewhereOnTheirPage(): void {
         $client = HttpClient::create();
